@@ -1,0 +1,438 @@
+{
+    "profile": {
+        "initials": "ASS",
+        "name": "Amadou Siré Soumaré",
+        "title": "// Full-Stack Developer &   //Game Designer ",
+        "status": "Disponible pour missions",
+        "greeting": "Bonjour, je suis",
+        "hero_name": "Amadou Siré Soumaré",
+        "hero_role": "Full-Stack Dev & Game Designer",
+        "hero_role_highlight": " Problem Solver",
+        "bio": "<p>\n<strong>Développeur Fullstack</strong> avec 4 ans d’expérience chez <strong>Medianet</strong>, spécialisé dans le <strong>développement d’applications web (Python, React)</strong>, la gestion de <strong>CMS (WordPress, Drupal)</strong> et la <strong>qualité logicielle (QA)</strong>.\n</p>\n<p>\nJe conçois également des <strong>jeux avec Unreal Engine</strong> en <strong>3D et 2D-HD</strong>, du <strong>prototype de gameplay</strong> jusqu’à l’intégration technique et visuelle.\n</p>",
+        "stats": [
+            {
+                "value": "4",
+                "suffix": "+",
+                "label": "Années d'expérience"
+            },
+            {
+                "value": "12",
+                "suffix": "+",
+                "label": "Projets livrés"
+            },
+            {
+                "value": "7",
+                "suffix": "k",
+                "label": "Commits GitHub"
+            }
+        ],
+        "socials": [
+            {
+                "label": "GH",
+                "url": "#"
+            },
+            {
+                "label": "LI",
+                "url": "#"
+            },
+            {
+                "label": "CV",
+                "url": "#"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "id": "p1",
+            "emoji": "",
+            "name": "StatFantasy — PL Analytics",
+            "description": "Plateforme d'analyse avancée pour la Premier League Fantasy. Moteur de prédiction xG/xA, recommandations de transferts et tableau de bord en temps réel.",
+            "tags": [
+                {
+                    "name": "TypeScript",
+                    "class": "lang-ts"
+                },
+                {
+                    "name": "Python",
+                    "class": "lang-py"
+                },
+                {
+                    "name": "FastAPI",
+                    "class": "lang-py"
+                },
+                {
+                    "name": "⌥ GitHub",
+                    "class": "lang-github"
+                }
+            ],
+            "links": [
+                {
+                    "label": "↗ Demo live",
+                    "url": "#"
+                },
+                {
+                    "label": "⌥ GitHub",
+                    "url": "#"
+                }
+            ],
+            "featured": true
+        },
+        {
+            "id": "p2",
+            "emoji": "",
+            "name": "Rapport d'Activité Automatique — Redmine",
+            "description": "Outil de reporting automatique qui parcourt les projets Redmine, identifie les tickets du tracker \"Documentation et reporting\" et détermine si le rapport d'activité est effectué ou en attente selon la date d'échéance.",
+            "tags": [
+                {
+                    "name": "Python",
+                    "class": "lang-py"
+                },
+                {
+                    "name": "JavaScript",
+                    "class": "lang-ts"
+                },
+                {
+                    "name": "⌥ GitHub",
+                    "class": "lang-github"
+                }
+            ],
+            "links": [
+                {
+                    "label": "⌥ GitHub",
+                    "url": "#"
+                }
+            ],
+            "featured": false
+        },
+        {
+            "id": "p3",
+            "emoji": "",
+            "name": "StaticCMS - Landing Page Builder & SSG",
+            "description": "StaticCMS est un puissant constructeur de pages d’atterrissage (landing pages) basé sur des blocs, qui génère des sites web statiques en HTML optimisés.",
+            "tags": [
+                {
+                    "name": "TypeScript",
+                    "class": "lang-ts"
+                },
+                {
+                    "name": "FastAPI ",
+                    "class": "lang-py"
+                },
+                {
+                    "name": "⌥ GitHub",
+                    "class": "lang-github"
+                }
+            ],
+            "links": [
+                {
+                    "label": "↗ Demo",
+                    "url": "#"
+                },
+                {
+                    "label": "⌥ GitHub",
+                    "url": "#"
+                }
+            ],
+            "featured": false
+        },
+        {
+            "id": "p4",
+            "emoji": "",
+            "name": "Jarvis - Assistant Personnel IA Avancé",
+            "description": "Jarvis est un agent personnel intelligent conçu pour Telegram. Il combine les capacités des meilleurs modèles de langage (LLM) avec des services cloud pour une mémoire infinie et une interface vocale naturelle.",
+            "tags": [
+                {
+                    "name": "TypeScript",
+                    "class": "lang-ts"
+                },
+                {
+                    "name": "FastAPI ",
+                    "class": "lang-py"
+                },
+                {
+                    "name": "Python",
+                    "class": "lang-py"
+                },
+                {
+                    "name": "Multi-agents",
+                    "class": "lang-github"
+                }
+            ],
+            "links": [
+                {
+                    "label": "⌥ GitHub",
+                    "url": "#"
+                }
+            ],
+            "featured": false
+        },
+        {
+            "id": "p5",
+            "emoji": "",
+            "name": "CoChef ",
+            "description": "Ce projet est une application web complète avec un backend FastAPI et un frontend React (Vite).",
+            "tags": [
+                {
+                    "name": "TypeScript",
+                    "class": "lang-ts"
+                },
+                {
+                    "name": "FastAPI ",
+                    "class": "lang-py"
+                },
+                {
+                    "name": "Python",
+                    "class": "lang-py"
+                }
+            ],
+            "links": [
+                {
+                    "label": "↗ Storybook",
+                    "url": "#"
+                },
+                {
+                    "label": "⌥ GitHub",
+                    "url": "#"
+                }
+            ],
+            "featured": false
+        },
+        {
+            "id": "1773577083170",
+            "name": "CV Portfolio Développeur",
+            "emoji": "",
+            "description": "Un portfolio professionnel et dynamique",
+            "tags": [
+                {
+                    "name": "TypeScript",
+                    "class": "lang-ts"
+                },
+                {
+                    "name": "FastAPI ",
+                    "class": "lang-py"
+                },
+                {
+                    "name": "Python",
+                    "class": "lang-py"
+                },
+                {
+                    "name": "⌥ GitHub",
+                    "class": "lang-github"
+                }
+            ],
+            "links": [],
+            "featured": false
+        },
+        {
+            "id": "1773579053298",
+            "name": "FormFlowValidator",
+            "emoji": "",
+            "description": " Plateforme SaaS pour auditer et valider automatiquement les tunnels de\nsouscription (Banque, E-commerce)",
+            "tags": [
+                {
+                    "name": "TypeScript",
+                    "class": "lang-ts"
+                },
+                {
+                    "name": "FastAPI ",
+                    "class": "lang-py"
+                },
+                {
+                    "name": "⌥ GitHub",
+                    "class": "lang-github"
+                }
+            ],
+            "links": [],
+            "featured": false
+        }
+    ],
+    "skills": [
+        {
+            "title": "Frontend",
+            "skills": [
+                {
+                    "name": "React / Next.js",
+                    "icon": "⚛",
+                    "percentage": 92,
+                    "color": "accent"
+                },
+                {
+                    "name": "TypeScript",
+                    "icon": "🔷",
+                    "percentage": 88,
+                    "color": "accent"
+                },
+                {
+                    "name": "CSS / Tailwind",
+                    "icon": "🎨",
+                    "percentage": 80,
+                    "color": "accent"
+                }
+            ],
+            "tools": null
+        },
+        {
+            "title": "Backend",
+            "skills": [
+                {
+                    "name": "Python / FastAPI",
+                    "icon": "🐍",
+                    "percentage": 90,
+                    "color": "accent2"
+                },
+                {
+                    "name": "Node.js",
+                    "icon": "🟢",
+                    "percentage": 85,
+                    "color": "accent2"
+                },
+                {
+                    "name": "Go",
+                    "icon": "🐹",
+                    "percentage": 30,
+                    "color": "accent2"
+                }
+            ],
+            "tools": null
+        },
+        {
+            "title": "Base de données & Infra",
+            "skills": [
+                {
+                    "name": "PostgreSQL",
+                    "icon": "🐘",
+                    "percentage": 88,
+                    "color": "accent3"
+                },
+                {
+                    "name": "Redis",
+                    "icon": "🔴",
+                    "percentage": 50,
+                    "color": "accent3"
+                },
+                {
+                    "name": "Docker / CI",
+                    "icon": "🐳",
+                    "percentage": 50,
+                    "color": "accent3"
+                }
+            ],
+            "tools": null
+        },
+        {
+            "title": "Outils & Environnement",
+            "skills": null,
+            "tools": [
+                "⌥ VS Code",
+                "🐙 Git / GitHub",
+                "☁️ Vercel",
+                "📐 Figma",
+                "🧪 Vitest",
+                "📦 pnpm",
+                "🤖 Claude API",
+                "🤖 Agents Automation"
+            ]
+        }
+    ],
+    "timeline": [
+        {
+            "period": "2023 — Aujourd'hui",
+            "role": "Full-Stack Developer",
+            "company": "MEDIANET",
+            "badge": "CDI",
+            "description": "•Développement et maintenance d'applications web fullstack utilisant Django/React <br>\n•Conception d'APIs RESTful sécurisées et gestion de bases de données SQL.<br>\n•Intégration de interfaces utilisateur réactives (React JS / TSX) et gestion des états.",
+            "techs": [
+                "Next.js",
+                "TypeScript",
+                "FastAPI",
+                "PostgreSQL",
+                "AWS"
+            ],
+            "muted": false
+        },
+        {
+            "period": "2022 — 2025",
+            "role": "Testeur QA & Webmaster",
+            "company": "MEDIANET",
+            "badge": "CDI",
+            "description": "•Webmastering : Gestion complète de portails clients sous WordPress, Drupal et \nPrestaShop (mise à jour, gestion de contenu, optimisation SEO).<br>\n\n•QA Testing : Rédaction de rapports de test détaillés, identification et suivi des bugs sur \nles CMS.<br>\n\n•Résolution de problèmes : Recommandation et application de correctifs techniques \npour améliorer la stabilité des sites.<br>\n\n•Résultat : Réduction du taux de bugs en production grâce à une phase de test rigoureuse.",
+            "techs": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Docker"
+            ],
+            "muted": false
+        },
+        {
+            "period": "2018 — 2022",
+            "role": "Licence en Informatique et Multimédia",
+            "company": "Institut des Hautes Études de Tunis",
+            "description": "Formation axée sur le développement web, la programmation et la conception d’applications multimédias, couvrant les technologies web, les bases de données et l’UX/UI.",
+            "techs": [],
+            "muted": false,
+            "badge": ""
+        }
+    ],
+    "contact": {
+        "cards": [
+            {
+                "icon": "📧",
+                "label": "Email",
+                "value": "beydisoumare@outlook.com"
+            },
+            {
+                "icon": "💼",
+                "label": "LinkedIn",
+                "value": "https://www.linkedin.com/in/amadou-sire-soumare/"
+            },
+            {
+                "icon": "🐙",
+                "label": "GitHub",
+                "value": "https://github.com/Amadou2sire"
+            },
+            {
+                "icon": "📍",
+                "label": "Localisation",
+                "value": "Tunis, Tunisie (Remote OK)"
+            }
+        ],
+        "availability": {
+            "icon": "✦",
+            "title": "Disponible pour de nouvelles opportunités",
+            "description": "Je suis ouvert aux missions freelance, aux postes en CDI et aux collaborations sur des projets ambitieux. \nRéponse sous 24h."
+        }
+    },
+    "nav": [
+        {
+            "id": "home",
+            "icon": "⌂",
+            "label": "Accueil",
+            "count": null
+        },
+        {
+            "id": "projects",
+            "icon": "◈",
+            "label": "Projets",
+            "count": "6"
+        },
+        {
+            "id": "skills",
+            "icon": "◎",
+            "label": "Compétences",
+            "count": null
+        },
+        {
+            "id": "timeline",
+            "icon": "◷",
+            "label": "Parcours",
+            "count": null
+        },
+        {
+            "id": "contact",
+            "icon": "◉",
+            "label": "Contact",
+            "count": null
+        }
+    ]
+}
