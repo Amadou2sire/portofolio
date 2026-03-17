@@ -1,47 +1,37 @@
-const API_BASE = 'http://127.0.0.1:8000';
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+
+export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 export async function fetchAll() {
-  const res = await fetch(`${API_BASE}/api/all`);
-  if (!res.ok) throw new Error('API unreachable');
-  return res.json();
+  const { data, error } = await supabase
+    .from('portfolio_data')
+    .select('content')
+    .eq('id', 'main')
+    .single();
+
+  if (error) {
+    console.error('Supabase error:', error);
+    throw new Error('Impossible de charger les données depuis Supabase');
+  }
+
+  return data.content;
 }
 
-export async function fetchProfile() {
-  const res = await fetch(`${API_BASE}/api/profile`);
-  return res.json();
-}
+// Map individual fetch functions to use the cached/fetched data from fetchAll if needed,
+// but for now, we follow the current App structure where fetchAll is the entry point.
+export async function updateData(updatedContent) {
+  const { data, error } = await supabase
+    .from('portfolio_data')
+    .update({ content: updatedContent })
+    .eq('id', 'main');
 
-export async function fetchProjects() {
-  const res = await fetch(`${API_BASE}/api/projects`);
-  return res.json();
-}
+  if (error) {
+    console.error('Supabase update error:', error);
+    throw new Error('Échec de la mise à jour sur Supabase');
+  }
 
-export async function fetchSkills() {
-  const res = await fetch(`${API_BASE}/api/skills`);
-  return res.json();
-}
-
-export async function fetchTimeline() {
-  const res = await fetch(`${API_BASE}/api/timeline`);
-  return res.json();
-}
-
-export async function fetchContact() {
-  const res = await fetch(`${API_BASE}/api/contact`);
-  return res.json();
-}
-
-export async function fetchNav() {
-  const res = await fetch(`${API_BASE}/api/nav`);
-  return res.json();
-}
-
-export async function updateData(data) {
-  const res = await fetch(`${API_BASE}/api/update`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(data),
-  });
-  if (!res.ok) throw new Error('Update failed');
-  return res.json();
+  return { status: 'success' };
 }

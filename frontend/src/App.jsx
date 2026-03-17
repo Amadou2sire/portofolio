@@ -27,7 +27,7 @@ export default function App() {
   if (error) {
     return (
       <div className="loading-screen">
-        <span>⚠️ Impossible de contacter l'API — lancez le backend FastAPI sur le port 8000</span>
+        <span>⚠️ Impossible de contacter Supabase — Vérifiez vos clés API dans le fichier .env</span>
       </div>
     );
   }

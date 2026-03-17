@@ -24,3 +24,5 @@ SKILL.md
 *.sw?
 .env
 
+
+.vercel

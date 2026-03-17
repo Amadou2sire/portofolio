@@ -36,3 +36,10 @@ backend/.env
 # Artifacts
 artifacts/
 tmp/
+
+# Migration & Automation scripts
+backend/transform_to_supabase.py
+backend/supabase_schema.sql
+set_vercel_env.py
+vercel_output.txt
+test_file.txt
